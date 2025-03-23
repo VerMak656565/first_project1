@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <button id="btn-logout">logout</button>
+  </header>
+  <h1>Xata</h1>
+  <form id="form-adding-products">
+    <h2></h2>
+    <label for="input-email">
+      Name:
+      <input id="input-email" type="text" name="email" />
+    </label>
+    <label for="input-password">
+      Description:
+      <input id="input-password" type="password" name="password" />
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+    <ul class="notifications"></ul>
+    <div class="buttons">
+      <button class="btn" id="error">Error</button>
+      <button class="btn" id="warning">Warning</button>
+      <button class="btn" id="info">Info</button>
+      <button class="btn" id="success">Success</button>
+      <button class="btn" id="random">Random</button>
+    </div>
+    <section id="users-container"></section>
+    <script src="home.js" ></script>
+    
+</body>
+</html>
